@@ -1,0 +1,138 @@
+#top-header{
+    height:40px;
+    border-bottom: 1px #CCCCCC solid;
+    margin: 0 auto;
+}
+#bbc-logo{
+    margin-top:8px;
+    margin-right:8px;
+    padding-left:35px;
+    float:left;
+}
+.top-header-sections{
+    float:left;
+    border-left: 1px #CCCCCC solid;
+    height:100%;
+}
+#sign-in-logo{
+    width:27px;
+    margin-top:11px;
+    margin-left:15px;
+    margin-right:4px;
+    float:left;
+}
+#sign-in-text{
+    position:relative;
+    top:15px; 
+    font-weight:bold;
+    font-size:85%;
+    padding-right:75px; 
+}
+.articles-text{
+    padding:15px 15px 0px 15px;
+    font-weight:bold;
+    font-size:80%;
+    color:#211c1c;
+    height:26px;
+}
+#more-logo{
+    height:5px;
+    padding-left:60px;
+}
+#search-bar-div{
+    padding: 10px 0px 0px 15px; 
+    float:left;
+    height:30px;
+}
+#search-icon{
+    height:21px;
+    float:right;
+}
+input[type=text] {
+    background-color:#e8e8e8; 
+    padding: 3px 0px 3px 8px; 
+    border:0;
+    font-weight:bold;
+    color:#211c1c;
+    width:150px;
+}
+
+input::placeholder{
+    color:#211c1c;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#bbc-news-bar{
+    background-color:#BB1919;
+    height:94px;
+}
+#news-branding{
+    height:58px;
+}
+#news-logo{
+    padding:15px 0px 10px 35px; 
+    height:30px;
+    width:120px;
+}
+.bottom-header{
+    float:left; 
+    height:36px;
+}
+.bottom-header-text{
+    color:white; 
+    font-size:90%;
+}
+#home-div{
+    margin-left:24px;
+}
+.bottom-header-sections{
+    padding:0px 12px 0px 12px;
+    margin:8px 0px 10px 0px;
+    border-right: 1px #CCCCCC solid;
+    float:left;
+}
+#more-bottom-div{
+    border:none;
+    position:relative;
+    bottom:2px;
+}
+#bbc-article{
+    padding:16px 0px 0px 35px;
+    width:620px;
+    height:234px;
+}
+#rest-of-bbc{
+    height:316px;
+    opacity:50%;
+}
+#article-image{
+    height:234px;
+}
+#article-title{
+    font-weight:bold;
+    font-size:160%;
+    font-color:#CCCCCC;
+}
+#article-background{
+
+}
+a:link{
+    color:#211c1c;
+    text-decoration:none;
+}
+a:visited{
+    color:#211c1c;
+    text-decoration:none;
+}
+
+#href-title-image:hover{
+    color:#1380A1;
+    text-decoration:underline;
+
+}
+#href-text-description:hover{
+    text-decoration:none; 
+}
