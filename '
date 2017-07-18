@@ -106,14 +106,14 @@ body{
 }
 #rest-of-bbc{
     height:316px;
-    opacity:50%; 
-}  
-#article-image{ 
-    height:234px; 
-} 
-#article-title{ 
-    font-weight:bold; 
-    font-size:160%; 
+    opacity:50%;
+}
+#article-image{
+    height:234px;
+}
+#article-title{
+    font-weight:bold;
+    font-size:160%;
     font-color:#CCCCCC;
 }
 #article-background{
@@ -129,7 +129,7 @@ a:visited{
 
 #article-description{
     color:#636363;  
-    margin: 8px 0px 12px 0px;
+    margin:12px 0px 12px 0px;
 }
 .article-hover:hover{
     color:#1380A1;
@@ -164,54 +164,10 @@ a:visited{
     color:#1380A1;
     text-decoration:underline;
 }
-
 #bullet-img{
     height:40px;
-    position:relative;
-    top:15px;
 }
-
 #triangle-bullet{
-    height:13px;
+    height:20px;
     transform: rotate(90deg);
-    padding-top: 2px;
-}
-#bbc-text{
-    font-size:85%;
-    color:#211c1c;
-}
-
-.bbc-links-section {
-
-    width:207px;
-    position:relative;
-    top:20px;
-    margin-bottom:25px;
-}
-
-.container{
-    display:flex;
-    flex-direction:row;
-}
-
-#bbc-text:hover{
-    color:#1380A1; 
-    text-decoration:underline;
-}
-
-
-#bullet{
-    height:8px;
-    width:auto;
-    position:relative;
-    bottom:1px;
-    padding-right:10px;
-}
-
-.fa-circle{
-    height:8px;
-    width:auto;
-}
-#left-padding{
-    padding-left:35px;
 }
